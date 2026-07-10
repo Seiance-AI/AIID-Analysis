@@ -1,0 +1,7 @@
+# AIID-Analysis — Python 3.12
+# Deliverable: coded CSV + per-category-per-year counts (no chart rendering here).
+
+pandas>=2.2
+requests>=2.32
+openpyxl>=3.1        # read/write the dual-coding sheet as .xlsx if preferred
+python-dateutil>=2.9 # robust date parsing for "year of first report"
