@@ -10,13 +10,20 @@ progresses.
 | Parameter            | Value                                                        |
 |----------------------|--------------------------------------------------------------|
 | Data source          | AI Incident Database export (incidentdatabase.ai)            |
-| Access date          | `[ TBD — record on pull ]`                                   |
+| Access date          | 2026-07-07 (export generated via AIID public GraphQL API)     |
 | Analysis window      | 2023-01-01 → 2026-06-30 (Q2 2026, most recent complete qtr)  |
+| Year basis           | AIID incident `date` field (incident-occurrence date)        |
 | Year buckets         | 2023, 2024, 2025 (full) + 2026 (partial)                     |
 | First vs last full year | 2023 vs 2025                                              |
 | Coding               | Dual-coded; disagreements resolved by discussion             |
 | `X%` definition      | Purist: `C / N` ("ordinary use, no manipulation at all")     |
 | Deliverable          | Coded CSV + per-category-per-year counts (no chart render)   |
+
+**Note on year basis.** Year buckets are taken from the AIID `date` field
+(the incident-occurrence date) rather than the earliest linked report date.
+The two agree on the year for ~82% of incidents; the incident date is used for
+simplicity and because it is the field AIID surfaces directly. Charts and
+counts should describe the axis as "year (AIID incident date)".
 
 ## Part 2 — Inclusion criteria
 

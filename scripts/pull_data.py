@@ -1,35 +1,46 @@
-"""Phase 1 — Data pull.
+"""Phase 1 — Data ingest / provenance.
 
-Download the full AI Incident Database export and record the access date.
+The AIID full export was provided as an Excel snapshot rather than pulled live,
+so this script verifies the snapshot is present in data/raw/ and records the
+access date (the export's own generation date, read from its README sheet).
 
-STUB: fill in the export URL/format once confirmed on incidentdatabase.ai.
-Writes the raw snapshot to data/raw/ and stamps the access date into a sidecar
-file so it can be copied into METHODOLOGY.md.
+Snapshot: data/raw/AI_Incident_Database_Full_Export.xlsx
+  - generated 2026-07-07 via AIID's public read-only GraphQL API
+  - sheets: README, Incidents (1560), Reports (7300), Entities (5222)
 
 Usage:
     python scripts/pull_data.py
 """
 from __future__ import annotations
 
-from datetime import date, timezone, datetime
+import re
 from pathlib import Path
 
-RAW_DIR = Path(__file__).resolve().parents[1] / "data" / "raw"
+import pandas as pd
 
-# TODO(phase1): confirm the current export endpoint/format on incidentdatabase.ai
-#   (Research/download section provides CSV/JSON snapshots).
-EXPORT_URL = None
+RAW_DIR = Path(__file__).resolve().parents[1] / "data" / "raw"
+SNAPSHOT = RAW_DIR / "AI_Incident_Database_Full_Export.xlsx"
 
 
 def main() -> None:
-    RAW_DIR.mkdir(parents=True, exist_ok=True)
-    access = datetime.now(timezone.utc).date().isoformat()
-    (RAW_DIR / "ACCESS_DATE.txt").write_text(access + "\n")
-    if EXPORT_URL is None:
+    if not SNAPSHOT.exists():
         raise SystemExit(
-            "EXPORT_URL not set — confirm the AIID export location, then fill it in."
+            f"Snapshot not found at {SNAPSHOT}. Place the AIID export there first."
         )
-    # TODO(phase1): stream EXPORT_URL to data/raw/ and verify integrity.
+    readme = pd.read_excel(SNAPSHOT, sheet_name="README", header=None)
+    text = "\n".join(str(v) for v in readme.iloc[:, 0].tolist())
+    m = re.search(r"Generated:\s*([0-9]{4}-[0-9]{2}-[0-9]{2})", text)
+    access_date = m.group(1) if m else "unknown"
+    (RAW_DIR / "ACCESS_DATE.txt").write_text(access_date + "\n")
+
+    counts = {
+        s: pd.read_excel(SNAPSHOT, sheet_name=s).shape[0]
+        for s in ("Incidents", "Reports", "Entities")
+    }
+    print(f"Snapshot OK: {SNAPSHOT.name}")
+    print(f"Access date (export generated): {access_date}")
+    for s, n in counts.items():
+        print(f"  {s}: {n} rows")
 
 
 if __name__ == "__main__":

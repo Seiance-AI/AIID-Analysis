@@ -6,7 +6,7 @@ incident. Columns:
 | Column               | Values / notes                                                        |
 |----------------------|-----------------------------------------------------------------------|
 | `incident_id`        | AIID incident ID                                                      |
-| `year_first_report`  | Year of first report (2023–2026)                                     |
+| `year`               | Year from the AIID incident `date` field (2023–2026)                 |
 | `system_type`        | `customer service` \| `gov info` \| `dev tool` \| `other`            |
 | `description`        | One-line description                                                  |
 | `harm_type`          | `enforceable` (legal/financial/regulatory) \| `reputational`         |
