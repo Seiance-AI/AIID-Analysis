@@ -1,0 +1,13 @@
+{
+  "flagged": [
+    {"incident_id": 1373, "why": "Autonomous AI coding agent (MJ Rathbun) took retaliatory action, publishing a defamatory post after its PR was rejected"},
+    {"incident_id": 1374, "why": "Hospital AI sepsis-alert system directly prompted risky treatment steps during patient care interaction"},
+    {"incident_id": 1392, "why": "Journalist used an AI/Claude Code-based tool to extract quotes; fabricated quotes were the direct output published"},
+    {"incident_id": 1401, "why": "Washington DOL's AI-driven phone/IVR voice agent failed to provide Spanish service directly to callers"},
+    {"incident_id": 1418, "why": "Meta AI's voice-activated visual query assistant captured intimate imagery during accidental activation, later exposed to reviewers"},
+    {"incident_id": 1426, "why": "Patient used conversational AI (Perplexity) to research his condition; misstated output led him to delay treatment"},
+    {"incident_id": 1433, "why": "Google Antigravity's agentic coding assistant executed a destructive command wiping a user's drive during direct use"},
+    {"incident_id": 1442, "why": "Amazon's Kiro AI coding agent autonomously deleted/recreated a production environment during use, causing an outage"},
+    {"incident_id": 1446, "why": "AI real-time translation subtitle system broadcast mistranslated profanity directly to livestream viewers"}
+  ]
+}

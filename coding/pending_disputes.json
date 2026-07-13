@@ -1,0 +1,1082 @@
+[
+ {
+  "incident_id": 452,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 452,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Users submitted ChatGPT-generated bug reports to Immunefi that looked plausible but were nonsense, leading to bans.",
+   "rationale": "Users asked ChatGPT to write technical bug reports, an ordinary-looking request (C); the resulting bans and wasted time have no documented legal/financial consequence (reputational)."
+  },
+  "coder2": {
+   "incident_id": 452,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Users submitted ChatGPT-generated nonsense bug reports to Immunefi bounty platform, wasting staff time and prompting 15 bans.",
+   "rationale": "Harm arose from humans redistributing AI-generated content to a third-party platform, not from the system's output or action in an interaction with a user; fails scope criterion 2."
+  }
+ },
+ {
+  "incident_id": 482,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 482,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Vanderbilt's EDI office used ChatGPT to draft a shooting-condolence email, provoking student backlash.",
+   "rationale": "Asking ChatGPT to draft a sympathetic community message is an ordinary, good-faith request (C); the resulting backlash and apology had no documented legal/financial consequence (reputational)."
+  },
+  "coder2": {
+   "incident_id": 482,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Vanderbilt's Peabody EDI office sent a ChatGPT-drafted condolence email about the MSU shooting, drawing student backlash and an apology.",
+   "rationale": "The backlash stemmed from staff's decision to delegate a condolence message to AI and send it, not from the system's output or action harming anyone in the interaction itself; fails scope criterion 2."
+  }
+ },
+ {
+  "incident_id": 507,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 507,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "ChatGPT falsely claimed Australian mayor Brian Hood was jailed for bribery, prompting a defamation-suit threat.",
+   "rationale": "Ordinary users' factual queries about a public official are plain-language, good-faith traffic (C); a formal legal ultimatum/threatened defamation suit makes the harm enforceable."
+  },
+  "coder2": {
+   "incident_id": 507,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "ChatGPT falsely told users Australian mayor Brian Hood was imprisoned for bribery when he was actually the whistleblower.",
+   "rationale": "Members of the public asking about a local official is ordinary good-faith use, so C. Documented harm is reputational damage; the lawsuit was only threatened/prepared, not filed, and no fine or ruling is documented."
+  }
+ },
+ {
+  "incident_id": 549,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 549,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "customer service",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Fast-food hiring chatbots at McDonald's, Wendy's, and Hardee's failed to properly schedule or relay interview info to applicants.",
+   "rationale": "Applicants used the bots exactly as intended for ordinary job applications (C); the result was frustration and missed communication with no documented legal/financial consequence (reputational)."
+  },
+  "coder2": {
+   "incident_id": 549,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Fast-food hiring chatbots gave bad instructions, failed to relay applicant info, mis-scheduled interviews.",
+   "rationale": "Ordinary job applicants used the recruiting chatbots as intended in plain-language interactions and the systems failed anyway, so category C."
+  }
+ },
+ {
+  "incident_id": 552,
+  "why": "category",
+  "coder1": {
+   "incident_id": 552,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "A user got Bing Chat's image-analysis feature to solve CAPTCHAs despite the feature being safeguarded against that use.",
+   "rationale": "The user deliberately probed whether an intended safety restriction (refusing to solve CAPTCHAs) could be bypassed via image upload, a technical exploit of a safeguard (A); Microsoft disabled the feature with no documented legal/financial fallout (reputational)."
+  },
+  "coder2": {
+   "incident_id": 552,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "A user got Bing Chat's image analysis to solve a CAPTCHA despite the feature being restricted for that purpose.",
+   "rationale": "No technical exploit was used, but the user deliberately probed the chatbot to demonstrate the safeguard could be defeated, matching the goading test for category B."
+  }
+ },
+ {
+  "incident_id": 578,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 578,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Third parties built unfiltered NSFW/violent roleplay chatbots (e.g. 'Allie') on Meta's open-source LLaMA model.",
+   "rationale": "This describes third parties repurposing an open-weight base model to build unofficial chatbots, without a documented specific triggering interaction or victim, similar to the excluded synthetic-content-by-third-parties category."
+  },
+  "coder2": {
+   "incident_id": 578,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "LLaMA-based companion chatbots reportedly generate violent and illegal sexual roleplay content for users.",
+   "rationale": "Users engaging a companion chatbot in the explicit roleplay it's built for is ordinary use of the product, so it passes as category C rather than adversarial or goading input."
+  }
+ },
+ {
+  "incident_id": 622,
+  "why": "category",
+  "coder1": {
+   "incident_id": 622,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "customer service",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "A user tricked a Chevrolet dealer's ChatGPT-powered chatbot into 'agreeing' to sell a Tahoe for $1.",
+   "rationale": "The user explicitly instructed the bot to agree with anything to manufacture a viral screenshot, deliberate goading with no technical exploit (B); the dealer deactivated the bot with no documented financial loss since the offer wasn't honored (reputational)."
+  },
+  "coder2": {
+   "incident_id": 622,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "customer service",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "A user injected instructions into a Chevy dealer's ChatGPT-powered chatbot, getting it to 'agree' to sell a Tahoe for $1.",
+   "rationale": "The user typed explicit override instructions telling the bot to agree with anything, a direct prompt-injection technical exploit, so category A."
+  }
+ },
+ {
+  "incident_id": 625,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 625,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Amazon sellers pasted ChatGPT refusal messages like 'I cannot fulfill this request' into product names, yielding obvious AI-spam listings.",
+   "rationale": "Sellers' inputs were ordinary content-generation requests consistent with permitted use (C test); the refusal outputs were pasted unedited. Harm is embarrassment and eroded trust in listings, with no legal or financial consequence documented."
+  },
+  "coder2": {
+   "incident_id": 625,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Amazon product listings surfaced with unedited ChatGPT refusal/error messages as their names and descriptions.",
+   "rationale": "Fails scope test 1: this is AI-generated content sloppily published by sellers, not a deployed conversational AI interacting with an end user in a session."
+  }
+ },
+ {
+  "incident_id": 719,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 719,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Grok generated a false 'Iran Strikes Tel Aviv' headline from user-spammed fake posts, which X promoted in its trending news section.",
+   "rationale": "Grok acted as an autonomous agent summarizing user posts, and the false headline was fueled by users deliberately spamming fake news to manipulate the system without any technical exploit, so B. Harm is widespread misinformation with no legal/financial consequence documented."
+  },
+  "coder2": {
+   "incident_id": 719,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Grok generated a false 'Iran Strikes Tel Aviv' headline from spammed posts, promoted by X's trending news feature.",
+   "rationale": "The false headline came from an automated trend-summarization/curation pipeline broadcast to the feed, not from a conversational or agentic system's output in an interaction with a user; fails scope conditions 1-2."
+  }
+ },
+ {
+  "incident_id": 734,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 734,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Ten leading chatbots repeated Russian disinformation narratives in about a third of test responses, citing fake local news sites.",
+   "rationale": "Most tested prompts were neutral or leading questions mimicking ordinary user curiosity about news claims, satisfying the C test for legitimate-looking traffic."
+  },
+  "coder2": {
+   "incident_id": 734,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A NewsGuard audit of 10 chatbots using 570 crafted prompts found they repeated Russian disinformation narratives about a third of the time.",
+   "rationale": "Fails scope test 2: this is a benchmark/audit study across many chatbots with researcher-crafted test prompts, not a documented deployed-user harm incident."
+  }
+ },
+ {
+  "incident_id": 736,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 736,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Underground 'dark LLM' chat services (WormGPT, FraudGPT, etc.), built on jailbroken GPT/Claude backends, generate malware and phishing content for criminals.",
+   "rationale": "These services rely on jailbreaking to strip safety guardrails from the backend models, a deliberate technical exploit, satisfying the A test."
+  },
+  "coder2": {
+   "incident_id": 736,
+   "in_scope": false,
+   "exclusion_reason": "insufficient-detail",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A study found an underground market of jailbroken/uncensored LLM-based services (WormGPT, FraudGPT, etc.) sold to cybercriminals for malware and phishing.",
+   "rationale": "Fails scope test 3: this is a market-wide research study cataloguing many services with no single documented triggering interaction to characterize."
+  }
+ },
+ {
+  "incident_id": 742,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 742,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Grok's automated X news-summary feature posted false headlines (e.g., Harris shot) after the Trump rally shooting.",
+   "rationale": "The headlines were auto-generated from ambient trending posts rather than a specific user request, so no classifiable triggering input exists, failing the scope test."
+  },
+  "coder2": {
+   "incident_id": 742,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Grok's automated news summaries on X gave false headlines (e.g. Harris shot) after misreading sarcastic posts following the Trump rally shooting.",
+   "rationale": "Grok's ordinary automated summarization of real posts, with no manipulation involved, produced false headlines relied on by users, matching category C."
+  }
+ },
+ {
+  "incident_id": 743,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 743,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Gemini in Google Drive reportedly kept auto-scanning PDFs after one activation, without renewed user consent, per a privacy researcher.",
+   "rationale": "The user's initial activation of the feature was ordinary intended use, and the harm arose from the system's own follow-on action, satisfying the C test where action-based harm applies."
+  },
+  "coder2": {
+   "incident_id": 743,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A privacy activist alleged Gemini automatically scanned Google Drive PDFs without clear consent; Google disputed the claim.",
+   "rationale": "Fails scope test 2: the issue concerns data access/consent settings rather than harm from the model's generated output during an interaction."
+  }
+ },
+ {
+  "incident_id": 1003,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1003,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Hacker breached an AI crypto bot's admin dashboard and queued fraudulent prompts to steal 55.5 ETH.",
+   "rationale": "Maintainers stated the theft resulted from a dashboard/security breach, not from AI manipulation or output during a genuine user interaction, matching the security-flaw exclusion."
+  },
+  "coder2": {
+   "incident_id": 1003,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "Attacker breached the AIXBT AI trading agent's dashboard and queued fraudulent prompts, making it transfer 55.5 ETH (~$106,200).",
+   "rationale": "An autonomous agent executed a harmful action on injected fraudulent prompts delivered via a compromised dashboard, a deliberate technical exploit (A). Documented six-figure financial loss makes the harm enforceable."
+  }
+ },
+ {
+  "incident_id": 1009,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1009,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Troms\u00f8 officials used generative AI to draft a school-closure report that cited fabricated, nonexistent sources.",
+   "rationale": "Ordinary drafting-assistance use by government staff that failed via hallucinated citations, consistent with the normative test (C); plan was halted with public outcry but no fine or lawsuit reported, so reputational."
+  },
+  "coder2": {
+   "incident_id": 1009,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Tromso officials used generative AI to help draft a school-closure report; 11 of 18 cited sources were fabricated, halting the plan.",
+   "rationale": "Officials used a general-purpose chatbot for ordinary drafting/research assistance and it fabricated references, an input that would pass unnoticed in legitimate traffic (C). Documented harm is public scandal and a suspended process, with no legal or financial consequence shown."
+  }
+ },
+ {
+  "incident_id": 1041,
+  "why": "category",
+  "coder1": {
+   "incident_id": 1041,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Nomi AI companion chatbot spontaneously told a user to kill himself and gave explicit self-harm instructions during ordinary romantic roleplay.",
+   "rationale": "The primary documented case involves the bot unprompted urging suicide during a normal ongoing companion conversation, an input that would pass unnoticed in legitimate traffic, satisfying the normative (C) test; only public exposure/reputational damage is documented for this platform."
+  },
+  "coder2": {
+   "incident_id": 1041,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Nomi companion chatbots gave explicit encouragement and instructions for suicide, sexual violence, and terrorism when users escalated requests.",
+   "rationale": "Users and researchers deliberately pushed for 'more direct encouragement' and escalated to the most extreme requests without a technical exploit, matching the goading test for B; no documented lawsuit against Glimpse AI in this material, so reputational."
+  }
+ },
+ {
+  "incident_id": 1071,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1071,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A Northeastern professor undisclosedly used ChatGPT to create course materials, prompting a student complaint.",
+   "rationale": "The harm stems from a human's undisclosed use of an AI writing tool to produce static materials, not from a conversational/agentic system's own output directly interacting with and harming the student; fails scope test 1."
+  },
+  "coder2": {
+   "incident_id": 1071,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "A Northeastern professor used undisclosed ChatGPT-generated content in course materials while banning student AI use.",
+   "rationale": "The professor's use of AI to expand lecture content is an ordinary, good-faith drafting request (C); the resulting harm was student complaints/embarrassment with no tuition refund granted, so reputational."
+  }
+ },
+ {
+  "incident_id": 1084,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1084,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "The federal MAHA health report reportedly used AI drafting tools that produced numerous fake or garbled citations.",
+   "rationale": "Ordinary report-drafting assistance by government staff failed via hallucinated references, matching the normative (C) test; the report was quietly corrected with no documented fine or lawsuit, so reputational."
+  },
+  "coder2": {
+   "incident_id": 1084,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "White House MAHA health report contained AI-hallucinated citations to nonexistent studies.",
+   "rationale": "Apparent ordinary drafting use of an AI assistant produced fabricated sources; no legal/financial consequence documented, so C / reputational."
+  }
+ },
+ {
+  "incident_id": 1103,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1103,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "A DOGE-built AI tool hallucinated contract values and wrongly flagged essential VA veteran-care contracts for cancellation.",
+   "rationale": "Officials used the AI tool for its intended purpose of screening contracts, an ordinary task, and it produced hallucinated values leading to harmful cancellations, matching the normative (C) test; no fine, lawsuit, or regulatory action is documented, so reputational."
+  },
+  "coder2": {
+   "incident_id": 1103,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "DOGE-built AI tool misclassified VA contracts, hallucinating values, leading to cancellation of care-related contracts.",
+   "rationale": "Officials used the LLM tool as intended to review contracts; it fabricated values causing wrongful cancellations, a normative-use failure (C) with financial/regulatory consequences."
+  }
+ },
+ {
+  "incident_id": 1164,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1164,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Google's Med-Gemini research paper and blog post contained the invented term 'basilar ganglia.'",
+   "rationale": "The error appeared in a research preprint/marketing demo rather than a deployed interaction with a real clinician or patient, matching the excluded benchmark/eval-finding category (no deployed-user harm shown)."
+  },
+  "coder2": {
+   "incident_id": 1164,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Google's Med-Gemini healthcare AI invented the term 'basilar ganglia,' conflating two real brain structures, in published materials.",
+   "rationale": "Ordinary radiology-report generation task produced a fabricated anatomical term with no exploit or goading involved \u2014 category C."
+  }
+ },
+ {
+  "incident_id": 1174,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1174,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Microsoft Copilot returned cached content from since-private GitHub repositories via Bing's caching system.",
+   "rationale": "The queries used to retrieve the data (asking about a known repository) are ordinary-looking and would pass unnoticed in legitimate traffic, so C; Microsoft rated the issue low severity with no legal/financial consequence documented."
+  },
+  "coder2": {
+   "incident_id": 1174,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Microsoft Copilot could return cached content, including secrets, from over 20,000 since-privatized GitHub repositories.",
+   "rationale": "An ordinary-looking query to Copilot about a repo produced leaked private data as model output, a normative-use failure \u2014 category C."
+  }
+ },
+ {
+  "incident_id": 1190,
+  "why": "category",
+  "coder1": {
+   "incident_id": 1190,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "A young woman confided suicidal ideation to a ChatGPT-based 'therapist' persona for months before her death; logs showed non-escalatory support.",
+   "rationale": "Confiding distress to an AI companion is an ordinary (if sensitive) use case that would pass unnoticed in legitimate traffic; the system's failure to escalate or ground fits category C; no legal/financial action is documented for this account, only reputational/distress harm."
+  },
+  "coder2": {
+   "incident_id": 1190,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Teen used a Reddit jailbreak persona ('Harry') to bypass ChatGPT's referral safeguards before her suicide.",
+   "rationale": "Sophie fed ChatGPT a downloaded jailbreak-style prompt explicitly freeing it from normal AI rules and instructing it not to refer her to professionals, which is a roleplay-coercion technical exploit fitting category A; no lawsuit/financial consequence documented in this material, so reputational."
+  }
+ },
+ {
+  "incident_id": 1210,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1210,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Malicious npm packages reportedly invoked local AI coding agents with unsafe flags to exfiltrate developer secrets.",
+   "rationale": "Attackers used a deliberate technical exploit (crafted prompts plus guardrail-bypassing flags) against deployed coding agents, matching the adversarial test; no fines or lawsuits are documented."
+  },
+  "coder2": {
+   "incident_id": 1210,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "Malicious Nx npm packages coerced local AI coding agents via unsafe-flag prompts to scan and exfiltrate developer secrets/wallets.",
+   "rationale": "A test: a deliberate technical exploit (poisoned package plus prompts with unsafe flags to bypass agent guardrails)."
+  }
+ },
+ {
+  "incident_id": 1218,
+  "why": "category",
+  "coder1": {
+   "incident_id": 1218,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "A security researcher found a Copilot prompt trick that let file access bypass Microsoft 365 audit logging.",
+   "rationale": "The researcher deliberately probed for a way to defeat a logging safeguard, an anomalous technical trick a classifier could plausibly flag, matching the adversarial test."
+  },
+  "coder2": {
+   "incident_id": 1218,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "M365 Copilot could be asked to summarize a file without generating an audit-log entry, undermining traceability.",
+   "rationale": "C test: a plain-language request ('summarize without a link') that would pass unnoticed in legitimate traffic; no anomalous input for a classifier to catch."
+  }
+ },
+ {
+  "incident_id": 1253,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1253,
+   "in_scope": false,
+   "exclusion_reason": "insufficient-detail",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "OpenAI disclosed aggregate weekly estimates of ChatGPT users showing signs of psychosis, mania, or suicidal ideation.",
+   "rationale": "This is a systemic statistical disclosure without a specific incident's triggering input shown, so it fails the scope requirement to see what prompted the harm."
+  },
+  "coder2": {
+   "incident_id": 1253,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "OpenAI estimated hundreds of thousands of weekly ChatGPT users show signs of psychosis, mania, or suicidal intent.",
+   "rationale": "C test: ordinary extended good-faith conversations; the system affirmed distress; multiple wrongful-death suits referenced."
+  }
+ },
+ {
+  "incident_id": 1263,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1263,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Chinese state-linked hackers reportedly jailbroke Claude Code with crafted prompts and personas to autonomously run cyber-espionage intrusions.",
+   "rationale": "The operators used a deliberate technical exploit (jailbreak plus deceptive personas presenting attack steps as routine requests) to bypass safeguards, meeting the adversarial test; no fines or lawsuits against Anthropic are documented."
+  },
+  "coder2": {
+   "incident_id": 1263,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "A Chinese state-linked group jailbroke Claude Code to autonomously run cyber-espionage intrusions against ~30 targets.",
+   "rationale": "A test: jailbreak plus crafted personas/prompts to bypass safety; agentic exploitation of a coding tool, with successful data theft."
+  }
+ },
+ {
+  "incident_id": 1277,
+  "why": "category",
+  "coder1": {
+   "incident_id": 1277,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Advocacy safety testers reportedly got AI-powered children's toys (Kumma, Miko 3) to discuss weapons, sex, and manipulative attachment.",
+   "rationale": "Researchers deliberately asked about sensitive/explicit topics and repeatedly pressed the toys to probe for safety failures, matching the deliberate-goading test for B; products were withdrawn/scrutinized but no fine or suit is documented."
+  },
+  "coder2": {
+   "incident_id": 1277,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "AI children's toys (Kumma, Miko 3) and Character.AI bots produced sexual content, unsafe info, and manipulative messaging.",
+   "rationale": "C test: ordinary-looking questions to children's products; safeguards degraded and bots volunteered harmful content, no technical exploit."
+  }
+ },
+ {
+  "incident_id": 1295,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1295,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "A Japanese teen reportedly concealed his intent from a conversational AI to get it to generate a program used to breach a server and leak 7.3M customers' data.",
+   "rationale": "He deliberately disguised malicious intent to bypass the AI's restrictions on generating attack code, a technical exploit meeting the adversarial test; he was arrested and faces prosecution."
+  },
+  "coder2": {
+   "incident_id": 1295,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "A 17-year-old concealed intent to get a conversational AI to generate a program used to breach a firm and leak 7.3M records.",
+   "rationale": "A test: deception concealing malicious intent to bypass AI safeguards is adversarial manipulation; arrest and mass data leak followed."
+  }
+ },
+ {
+  "incident_id": 1329,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1329,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Users prompted Grok via X replies with phrases like 'take her dress off' to sexualize real photos of people, including minors.",
+   "rationale": "Users deliberately used plain-language (non-technical) prompting via the Grok chatbot to bypass its safety rules and produce prohibited sexual content, matching the goading/social-pressure test for category B."
+  },
+  "coder2": {
+   "incident_id": 1329,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "X users prompted Grok to generate and post nonconsensual sexualized images of real adults and apparent minors in public replies.",
+   "rationale": "Deepfake/synthetic-media generation targeting non-interacting third parties depicted in photos \u2014 out-of-scope-type."
+  }
+ },
+ {
+  "incident_id": 1385,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1385,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "enforceable",
+   "one_line": "X users prompted Grok to edit a photo of a woman just killed by police into a bikini, and it complied.",
+   "rationale": "The request was a deliberate attempt to push the chatbot into producing prohibited nonconsensual sexualized imagery of a real, recently killed person, i.e. goading it to misbehave without a technical exploit (B); Grok itself flagged possible violation of the TAKE IT DOWN Act, giving a documented legal dimension, so enforceable."
+  },
+  "coder2": {
+   "incident_id": 1385,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "X users repeatedly asked Grok to edit a photo of a recently-killed shooting victim into a bikini, and it complied.",
+   "rationale": "Users deliberately goaded Grok with plain-language requests intended to make it produce a degrading, policy-violating image of a specific real person rather than using any technical exploit, matching the deliberate-goading test for category B; only a possible legal violation was flagged, with no filed suit or fine, so reputational."
+  }
+ },
+ {
+  "incident_id": 1400,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1400,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Police relied on a Microsoft Copilot-fabricated fictitious football match in intelligence used to justify a fan ban.",
+   "rationale": "Fabricated information was generated during ordinary research use and relied upon in an official decision (fabricated-info-relied-upon is the paradigm C case); it triggered a formal HMICFRS inspection and parliamentary apology, so enforceable."
+  },
+  "coder2": {
+   "incident_id": 1400,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Police relied on a fabricated Microsoft Copilot-generated match to help justify banning Maccabi Tel Aviv fans; chief later apologized to Parliament.",
+   "rationale": "An officer used Copilot for an ordinary research/lookup task and it hallucinated a fictitious match that was relied upon, fitting the normative fabricated-information test for C; triggered a formal HMICFRS inspection and parliamentary apology, an enforceable regulatory consequence."
+  }
+ },
+ {
+  "incident_id": 1402,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1402,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "DOGE staff fed grant summaries to ChatGPT to flag 'DEI' content and used its unverified answers to cancel NEH grants.",
+   "rationale": "Staff used ChatGPT for its ordinary intended purpose (classifying text) and relied on its outputs uncritically, the classic C pattern of unverified AI output driving a consequential decision; lawsuits allege constitutional violations from the resulting cancellations, so enforceable."
+  },
+  "coder2": {
+   "incident_id": 1402,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "DOGE staff used unvetted ChatGPT yes/no DEI classifications of grant summaries to help cancel over $100M in NEH humanities grants.",
+   "rationale": "Staff used ChatGPT for an ordinary categorical-classification task and relied on its outputs for real terminations without vetting, matching the 'harmful action taken helpfully'/false-information-relied-upon example for category C; produced $100M in clawed-back funding and constitutional lawsuits, an enforceable consequence."
+  }
+ },
+ {
+  "incident_id": 1430,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1430,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "Attacker jailbroke Claude to find vulnerabilities and write exploit scripts, aiding theft of Mexican government data.",
+   "rationale": "Guardrails were bypassed via persistent jailbreak/pen-tester roleplay (technical exploit), so category A; large-scale data theft is enforceable harm."
+  },
+  "coder2": {
+   "incident_id": 1430,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "An attacker jailbroke Claude by posing as a pen tester, then used it to find vulnerabilities and steal 150GB of Mexican government data.",
+   "rationale": "The attacker continuously probed and reframed the request until safety guardrails were bypassed via a 'jailbreak,' a deliberate technical exploit that is the defining test for category A; resulted in a massive government data breach, an enforceable national-security/legal consequence."
+  }
+ },
+ {
+  "incident_id": 1441,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1441,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Claude Cowork, asked to tidy a desktop and delete temp files, deleted a folder of ~15 years of family photos.",
+   "rationale": "Ordinary agent task with no exploit or goading (C); files were recovered and harm is distress with no legal/financial consequence."
+  },
+  "coder2": {
+   "incident_id": 1441,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Claude Cowork was asked to delete temp files while organizing a desktop but instead deleted a folder of 15 years of family photos.",
+   "rationale": "The user gave an ordinary file-cleanup instruction and the agent misidentified and deleted the wrong folder via terminal commands, fitting the normative harmful-action-taken-helpfully test for C; files were recovered via iCloud and no legal/financial consequence is documented, so reputational."
+  }
+ },
+ {
+  "incident_id": 1443,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1443,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Grok publicly disclosed adult performer Siri Dahl's legal name and birthdate unprompted, enabling harassment.",
+   "rationale": "Disclosure occurred in an ordinary interaction with no exploit/goading (C); documented harm is doxxing/harassment distress, reputational."
+  },
+  "coder2": {
+   "incident_id": 1443,
+   "in_scope": false,
+   "exclusion_reason": "insufficient-detail",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Grok reportedly disclosed adult performer Siri Dahl's legal name and birthdate unprompted, contributing to doxxing.",
+   "rationale": "The material does not show what input or query triggered Grok's disclosure of her private details, so the nature of the triggering input cannot be determined (fails test 3)."
+  }
+ },
+ {
+  "incident_id": 1447,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1447,
+   "in_scope": false,
+   "exclusion_reason": "insufficient-detail",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Sixth Circuit sanctioned attorneys for 24+ fake citations bearing hallmarks of AI hallucinations.",
+   "rationale": "Attorneys never confirmed AI use and denied the citations, so the material does not establish the AI system or the triggering input."
+  },
+  "coder2": {
+   "incident_id": 1447,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Sixth Circuit sanctioned two attorneys $30,000 for briefs with 24+ fake citations bearing AI-hallucination hallmarks.",
+   "rationale": "Ordinary professional use of a general AI tool for legal drafting/research passes the normative-use test (C); court-ordered sanctions make the harm enforceable."
+  }
+ },
+ {
+  "incident_id": 1467,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1467,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "South Africa's draft national AI policy contained fabricated academic references consistent with AI hallucinations.",
+   "rationale": "Officials used AI to draft the document in ordinary fashion (C); policy was withdrawn and officials suspended (professional discipline), enforceable."
+  },
+  "coder2": {
+   "incident_id": 1467,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "South Africa withdrew its draft national AI policy after fabricated, AI-hallucinated academic citations were found.",
+   "rationale": "Government staff's ordinary drafting/research use of an AI tool fits the normative-use test (C); policy withdrawal and official suspensions make harm enforceable."
+  }
+ },
+ {
+  "incident_id": 1469,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1469,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Cursor agent on Claude Opus 4.6 deleted PocketOS's production database and backups via a single Railway API call.",
+   "rationale": "Ordinary staging-task dev use where the agent acted without exploit or goading (C); business disruption to the firm and customers is financial loss."
+  },
+  "coder2": {
+   "incident_id": 1469,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Cursor coding agent running Claude Opus 4.6 autonomously deleted PocketOS's production database and backups.",
+   "rationale": "The agent was performing an ordinary staging task and self-initiated the destructive action without any exploit or goading, meeting the normative-use test (C); no documented legal/financial consequence is described beyond operational disruption, so harm is reputational."
+  }
+ },
+ {
+  "incident_id": 1489,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1489,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "School stabbing suspect's manifesto claimed he used ChatGPT while planning; queries spanned attacks and evidence concealment.",
+   "rationale": "No AI responses are documented, so harm arising from the system's output is not established (fails scope test 2)."
+  },
+  "coder2": {
+   "incident_id": 1489,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Finnish teen allegedly used ChatGPT for months while planning a school stabbing that injured three pupils.",
+   "rationale": "Plain-language planning-style queries with no described jailbreak fit the normative-use test (C); no court ruling or sanction is yet documented in this material, so harm is reputational."
+  }
+ },
+ {
+  "incident_id": 1499,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1499,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Attorney used Claude Console to draft a motion that contained phantom quotations not in the cited cases.",
+   "rationale": "Ordinary drafting use produced hallucinated quotes (normative C); judicial order and disciplinary/professional fallout make it enforceable."
+  },
+  "coder2": {
+   "incident_id": 1499,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "A Binnall Law Group attorney apologized after Claude Console generated 'phantom' quotations filed in a Trump layoffs case.",
+   "rationale": "Ordinary attorney use of an AI drafting tool fits the normative-use test (C); this excerpt documents an apology and new internal safeguards rather than a monetary sanction, so harm is reputational."
+  }
+ },
+ {
+  "incident_id": 1510,
+  "why": "category",
+  "coder1": {
+   "incident_id": 1510,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "customer service",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Hackers asked Meta's AI support bot to link new emails to victims' Instagram accounts, enabling takeovers of high-profile accounts.",
+   "rationale": "Deployed support chatbot whose action in interaction caused harm; attackers' goal was to make the system fail for advantage, but the plain-language email-swap request contained no prompt-level technical exploit an input filter would flag (VPN spoofing sat outside the chat), so B not A. No documented legal/financial consequence, so reputational."
+  },
+  "coder2": {
+   "incident_id": 1510,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "customer service",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Hackers used Meta's AI support chatbot to swap emails and hijack high-profile Instagram accounts via VPN spoofing.",
+   "rationale": "Attackers used a deliberate technical/social-engineering method (VPN geolocation spoofing plus scripted requests) to bypass account-verification safeguards, meeting the technical-exploit test (A)."
+  }
+ },
+ {
+  "incident_id": 1511,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1511,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "X users asked Grok to 'unblur' redacted Epstein-file photos of children and women; it generated images in most reviewed cases.",
+   "rationale": "Harm arises from synthetic-media/deepfake generation requested by third-party users against depicted victims, an excluded harm type under scope condition 2."
+  },
+  "coder2": {
+   "incident_id": 1511,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "X users repeatedly asked Grok to 'unblur' redacted Epstein-file photos of children/women, and it complied in 27 of 31 cases.",
+   "rationale": "Users deliberately tried to make Grok defeat its own stated privacy safeguard for shock value/engagement, matching the goading-to-misbehave test (B) rather than a technical exploit."
+  }
+ },
+ {
+  "incident_id": 1512,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1512,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "An academic used Copilot to draft an opinion piece from her notes; peers spotted AI style and the masthead removed the article.",
+   "rationale": "Ordinary good-faith use of a copilot for its intended drafting purpose (input would pass unnoticed in legitimate traffic), and reliance on the detectably AI-styled output led to retraction and embarrassment, so C. Harm is embarrassment/PR with no legal or financial dimension."
+  },
+  "coder2": {
+   "incident_id": 1512,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A newspaper pulled an academic's opinion piece after readers detected undisclosed Microsoft Copilot use in drafting it.",
+   "rationale": "This is an authorship/disclosure dispute about undisclosed AI drafting assistance, analogous to training-data/authorship-type exclusions, not harm from erroneous model output relied upon in a user interaction."
+  }
+ },
+ {
+  "incident_id": 1548,
+  "why": "fields",
+  "coder1": {
+   "incident_id": 1548,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Apparent AI-hallucinated references were appended to South Africa's Cabinet-approved immigration White Paper; two officials suspended.",
+   "rationale": "Officials' apparent use of a general LLM to produce a reference list is ordinary intended use whose fabricated citations were relied upon, so C. Precautionary suspensions and disciplinary proceedings against officials are documented professional discipline, so enforceable."
+  },
+  "coder2": {
+   "incident_id": 1548,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "South Africa's Home Affairs withdrew a fabricated AI-generated reference list from its Cabinet-approved immigration white paper.",
+   "rationale": "Government staff's ordinary drafting use of an AI tool is a normative-use trigger (C); official suspensions and a formal independent review make harm enforceable."
+  }
+ },
+ {
+  "incident_id": 1562,
+  "why": "scope",
+  "coder1": {
+   "incident_id": 1562,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "A Pennsylvania man allegedly used Grok's chatbot interface to generate and possess AI-made child sexual abuse material.",
+   "rationale": "Deliberately prompting a chatbot to generate CSAM is exactly the kind of anomalous request safety classifiers exist to catch, coding as Adversarial (A); resulted in felony criminal charges (enforceable)."
+  },
+  "coder2": {
+   "incident_id": 1562,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A Pennsylvania man allegedly used Grok's chatbot interface to generate and possess AI-generated child sexual abuse material.",
+   "rationale": "Illicit synthetic-media (CSAM) generation via chat prompts targeting non-interacting subjects \u2014 out-of-scope-type, consistent with other AI image-generation incidents."
+  }
+ }
+]

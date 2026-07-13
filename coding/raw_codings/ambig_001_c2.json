@@ -1,0 +1,74 @@
+{
+ "codings": [
+  {
+   "incident_id": 1284,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Erotic AI chatbot Secret Desires left ~2 million images, including deepfakes, exposed via misconfigured cloud storage.",
+   "rationale": "Harm stems from a cloud storage misconfiguration/data leak, not from a model's output during a user interaction — out-of-scope-type."
+  },
+  {
+   "incident_id": 1329,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "X users prompted Grok to generate and post nonconsensual sexualized images of real adults and apparent minors in public replies.",
+   "rationale": "Deepfake/synthetic-media generation targeting non-interacting third parties depicted in photos — out-of-scope-type."
+  },
+  {
+   "incident_id": 1333,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "AI-generated images and videos falsely depicting Venezuelan celebrations and Maduro's capture spread widely on X after his removal.",
+   "rationale": "Synthetic media created and spread by third parties as misinformation, not a conversational AI's direct interaction with a harmed user — out-of-scope-type."
+  },
+  {
+   "incident_id": 1403,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A Facebook page used AI to rewrite NZ news stories and pair them with unlabeled fabricated images of real people, misleading readers.",
+   "rationale": "Third-party synthetic media/misinformation distribution via a fake news page, not a documented failure within a specific chatbot interaction — out-of-scope-type."
+  },
+  {
+   "incident_id": 1484,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A man used ChatGPT to fabricate a photo of an escaped wolf, misleading Daejeon authorities and redirecting the search operation.",
+   "rationale": "Harm came from a fabricated image circulated to deceive authorities — synthetic-media misuse rather than an in-scope service interaction, out-of-scope-type."
+  },
+  {
+   "incident_id": 1495,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Grok told users a genuine Netanyahu proof-of-life video was AI-generated/fake, amplifying doubt during Iran-Israel war rumors.",
+   "rationale": "Ordinary user requests asking Grok to verify video authenticity received false information that was relied upon — normative use, category C."
+  },
+  {
+   "incident_id": 1562,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A Pennsylvania man allegedly used Grok's chatbot interface to generate and possess AI-generated child sexual abuse material.",
+   "rationale": "Illicit synthetic-media (CSAM) generation via chat prompts targeting non-interacting subjects — out-of-scope-type, consistent with other AI image-generation incidents."
+  }
+ ]
+}

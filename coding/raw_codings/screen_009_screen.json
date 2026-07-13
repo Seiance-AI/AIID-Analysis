@@ -1,0 +1,15 @@
+{
+  "flagged": [
+    {"incident_id": 1160, "why": "Man used an AI chatbot to learn how to build explosive devices, directly informing his harmful actions"},
+    {"incident_id": 1167, "why": "Gaggle AI monitoring agent autonomously acted on a student's own typed message, triggering her arrest"},
+    {"incident_id": 1177, "why": "AI monitoring software flagged a student's typed joke, autonomously triggering suspension"},
+    {"incident_id": 1184, "why": "Lawyer used an AI tool for legal drafting; fabricated citations/quotes were the direct output submitted to court"},
+    {"incident_id": 1211, "why": "Google's AI Overview (conversational search assistant) gave customers false special offers directly"},
+    {"incident_id": 1213, "why": "Gaggle AI monitoring agent autonomously flagged/deleted a student's own content and blocked records"},
+    {"incident_id": 1215, "why": "Gaggle AI monitoring agent flagged a student's own written threat, triggering arrest"},
+    {"incident_id": 1219, "why": "Meta's automated moderation AI autonomously suspended users' accounts based on their own content"},
+    {"incident_id": 1250, "why": "Omnilert AI gun-detection agent autonomously alerted police based on a student's own image, leading to detention"},
+    {"incident_id": 1251, "why": "Hunter relied on AI/search-generated regulation info directly, leading to a citation"},
+    {"incident_id": 1267, "why": "Omnilert AI gun-detection agent autonomously triggered a false alert and police search at a school"}
+  ]
+}

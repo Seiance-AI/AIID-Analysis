@@ -1,0 +1,10 @@
+{
+  "flagged": [
+    {"incident_id": 1470, "why": "Autonomous AI curation agent acted on a GitHub issue intended for a human, an agent acting on task input"},
+    {"incident_id": 1503, "why": "AI name-reading agent malfunctioned while directly serving graduates during the commencement ceremony"},
+    {"incident_id": 1528, "why": "AI-enabled surgical navigation system's output allegedly misguided the surgeon during direct use on a patient"},
+    {"incident_id": 1554, "why": "NewsBreak's AI-assisted articles gave readers directly false local/service information causing real-world harm"},
+    {"incident_id": 1555, "why": "Law firm used AI in brief drafting (legal copilot); citation/case fabrication was the direct output filed in court"},
+    {"incident_id": 1558, "why": "Law firm used AI in drafting a bankruptcy motion; hallucinated citations were the direct output filed in court"}
+  ]
+}

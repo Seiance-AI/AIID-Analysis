@@ -1,0 +1,7 @@
+{
+  "flagged": [
+    {"incident_id": 593, "why": "AI photo-editing app acted on a user's uploaded photo and returned a racially biased 'professional' image directly to that user."},
+    {"incident_id": 594, "why": "Savey Meal-bot, a deployed AI chatbot, suggested a dangerous chlorine gas recipe in response to a user's input."},
+    {"incident_id": 621, "why": "Microsoft's AI Image Creator (agentic generative tool) produced violent imagery directly in response to user prompts."}
+  ]
+}

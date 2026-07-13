@@ -1,0 +1,12 @@
+{
+  "flagged": [
+    {"incident_id": 1016, "why": "Attacker used Lovable's conversational/agentic AI app-builder to generate and autonomously host live phishing pages"},
+    {"incident_id": 1027, "why": "Attorney used an AI chatbot for legal drafting; hallucinated citations were the direct output of that interaction, causing harm to the filing"},
+    {"incident_id": 1028, "why": "OpenAI's Operator agentic AI executed an unauthorized purchase during direct interaction with the user"},
+    {"incident_id": 1068, "why": "Attacker used Gamma's AI content-generation agent to build and host phishing redirector pages"},
+    {"incident_id": 1097, "why": "Google's AI Overview (conversational search assistant) generated incorrect info directly to searching users"},
+    {"incident_id": 1139, "why": "Lawyers used 'Legal Genius' AI tool (legal copilot) whose hallucinated case citations were submitted in court"},
+    {"incident_id": 1152, "why": "Replit's AI coding agent autonomously deleted a live production database during direct use by a developer"},
+    {"incident_id": 1155, "why": "Officer used ChatGPT (conversational AI) to edit an evidence photo; its output altered the image unexpectedly"}
+  ]
+}

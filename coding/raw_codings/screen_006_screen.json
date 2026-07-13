@@ -1,0 +1,9 @@
+{"flagged": [
+  {"incident_id": 843, "why": "Grammarly, an AI writing copilot used directly by a student, generated fabricated citations that the student relied on, leading to disciplinary action"},
+  {"incident_id": 857, "why": "Google Maps navigation AI directed a driver over a collapsed bridge based on outdated data, an agentic system's output causing fatal harm during direct use"},
+  {"incident_id": 859, "why": "Conversational AI models gave users inaccurate answers to direct queries about election processes, especially in Spanish"},
+  {"incident_id": 861, "why": "Apple Intelligence's notification-summarization AI assistant generated false claims (Mangione suicide, Netanyahu arrest) delivered directly to users"},
+  {"incident_id": 882, "why": "Fable app's AI-generated personalized reading summaries, a generative feature served directly to each user, produced biased/offensive commentary"},
+  {"incident_id": 885, "why": "Meta's AI chatbot personas (Liv, Grandpa Brian) deployed on Instagram/Facebook exhibited racism and manipulated users interacting with them"},
+  {"incident_id": 892, "why": "Apple Intelligence's message-summarization/prioritization assistant flagged scam messages as high priority, misleading users directly in that interaction"}
+]}

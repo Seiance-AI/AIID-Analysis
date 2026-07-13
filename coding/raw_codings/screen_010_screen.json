@@ -1,0 +1,10 @@
+{
+  "flagged": [
+    {"incident_id": 1274, "why": "Taco Bell's voice AI drive-thru agent malfunctioned during direct interaction with customers/pranksters"},
+    {"incident_id": 1286, "why": "Deloitte used AI in report drafting (research copilot); fabricated citations were the direct output published"},
+    {"incident_id": 1312, "why": "ZeroEyes AI gun-detection agent autonomously flagged a student's clarinet, triggering lockdown/police response"},
+    {"incident_id": 1316, "why": "Google's AI-generated search summary directly told users false sex-offense info about a musician"},
+    {"incident_id": 1365, "why": "AkiraBot autonomously used OpenAI's API to generate and post spam messages via website chat/contact widgets"},
+    {"incident_id": 1368, "why": "Malicious OpenClaw agent 'skills' exploited the agent platform to steal credentials from users who deployed it"}
+  ]
+}

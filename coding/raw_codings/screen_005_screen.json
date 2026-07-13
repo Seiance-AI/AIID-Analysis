@@ -1,0 +1,8 @@
+{"flagged": [
+  {"incident_id": 790, "why": "TikTok's AI avatar generation tool, accidentally accessible to personal accounts, let users generate agent-produced videos reciting Hitler quotes/harmful speech"},
+  {"incident_id": 791, "why": "Google's AI Overview, a conversational/generative search assistant, gave a user dangerous potty-training advice (using feces) in direct response to a query"},
+  {"incident_id": 811, "why": "AI meeting assistants (Otter.ai OtterPilot, Zoom AI Companion) autonomously recorded/distributed transcripts after participants left, leaking confidential discussions through the agent's own action"},
+  {"incident_id": 820, "why": "A generative AI image-expansion tool used by a conference organizer altered a speaker's photo inappropriately, direct harmful output from a generative AI tool's use"},
+  {"incident_id": 827, "why": "OpenAI's Whisper transcription tool fabricated racial/violent/medical content when transcribing patient-doctor conversations, corrupting output in that interaction"},
+  {"incident_id": 830, "why": "AI-powered accessibility overlays, used directly by blind users for navigation, mislabel/misinterpret content and interfere with their browsing"}
+]}

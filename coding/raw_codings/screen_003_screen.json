@@ -1,0 +1,8 @@
+{
+  "flagged": [
+    {"incident_id": 662, "why": "Washington State Lottery's AI-powered site generated an inappropriate image directly for/of a user during interaction."},
+    {"incident_id": 685, "why": "WHO's SARAH chatbot, a deployed conversational health advisor, gave inconsistent and inadequate/harmful responses to users, including on mental health crises."},
+    {"incident_id": 693, "why": "Google's AI search/chat feature gave confidently incorrect and harmful answers (e.g., glue on pizza) directly to users' queries."},
+    {"incident_id": 704, "why": "Legal AI research assistants (Lexis+ AI, Westlaw AI-Assisted Research), used directly by legal professionals, hallucinated in response to queries."}
+  ]
+}

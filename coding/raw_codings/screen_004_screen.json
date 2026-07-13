@@ -1,0 +1,6 @@
+{"flagged": [
+  {"incident_id": 732, "why": "Whisper speech-to-text hallucinates violent/fabricated content when transcribing users' speech, directly corrupting output used in hiring/legal/medical interactions"},
+  {"incident_id": 745, "why": "Figma's 'Make Design' AI copilot generated output (near-copy of Apple's Weather app) for users, exposing them to legal risk from the tool's action"},
+  {"incident_id": 751, "why": "OpenAI's SearchGPT, a conversational AI search assistant, gave users incorrect festival dates in its output"},
+  {"incident_id": 778, "why": "Amazon's Alexa voice assistant gave politically biased/refused answers to a user's direct query, an output error in a user interaction"}
+]}

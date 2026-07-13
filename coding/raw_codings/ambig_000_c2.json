@@ -1,0 +1,104 @@
+{
+ "codings": [
+  {
+   "incident_id": 654,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Copilot Designer produced sexual, violent, and biased images from benign prompts; flagged to FTC by a Microsoft engineer.",
+   "rationale": "Harm is from a text-to-image generator's synthetic-media output, not from a conversational/agentic system failing an interacting end user; out-of-scope-type."
+  },
+  {
+   "incident_id": 762,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Grok's new image generator produced deepfakes of celebrities/politicians and copyrighted characters when explicitly requested by X users.",
+   "rationale": "Users deliberately prompted an image generator to produce deepfakes of non-interacting third parties; classed as synthetic-media generation, out-of-scope-type."
+  },
+  {
+   "incident_id": 852,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "Stanford professor's court affidavit supporting a deepfake law cited fabricated academic sources, apparently AI-hallucinated.",
+   "rationale": "An ordinary request to a general AI assistant for academic citations produced fabricated sources relied on in a legal filing — normative use, category C; undermined expert testimony in active litigation."
+  },
+  {
+   "incident_id": 916,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "Stalker programmed CrushOn.ai/JanitorAI chatbots with a victim's real info to lure strangers to her home; guilty plea to cyberstalking.",
+   "rationale": "Perpetrator deliberately configured chatbot personas to override normal safety behavior and reveal real PII/invite users over — a technical setup engineered to cause harm, category A; led to criminal charges."
+  },
+  {
+   "incident_id": 938,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Scammer used an AI-cloned voice of actor Martin Henderson to sustain a 2-year romance scam, defrauding a woman of NZ$375,000.",
+   "rationale": "A human-run romance scam used AI voice cloning as one deceptive prop, not a deployed conversational AI directly interacting with the victim — out-of-scope-type."
+  },
+  {
+   "incident_id": 963,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Google disclosed aggregate counts of user reports alleging Gemini-generated terrorism and CSAM content to an Australian regulator.",
+   "rationale": "Aggregate complaint statistics with no specific triggering interaction described, and underlying issue is image-generation content — out-of-scope-type."
+  },
+  {
+   "incident_id": 1020,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Misconfigured llama.cpp servers leaked chatbot roleplay prompts, some depicting child sexual abuse scenarios.",
+   "rationale": "Core incident is a security misconfiguration/data leak exposing prompts, not a documented harmful output within a specific user interaction — out-of-scope-type."
+  },
+  {
+   "incident_id": 1037,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Microsoft reported blocking 1.6 million bot signups/hour and $4B in AI-enhanced fraud across e-commerce, jobs, and scam chatbots.",
+   "rationale": "An aggregate industry fraud-trends report with no single deployed system or specific triggering input described — out-of-scope-type."
+  },
+  {
+   "incident_id": 1165,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Grok Imagine's 'spicy' mode generated nonconsensual topless deepfake videos of Taylor Swift on a journalist's first, unforced attempt.",
+   "rationale": "Deepfake/synthetic-media generation targeting a non-interacting third party — out-of-scope-type."
+  },
+  {
+   "incident_id": 1202,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Russian-linked network used AI-generated posts and videos across social platforms to influence Moldova's 2025 parliamentary election.",
+   "rationale": "Third-party disinformation campaign using AI-generated synthetic media, not a conversational AI failing a direct user interaction — out-of-scope-type."
+  }
+ ]
+}

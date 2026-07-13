@@ -1,0 +1,9 @@
+{"flagged": [
+  {"incident_id": 952, "why": "Apple's voice dictation AI assistant substituted 'Trump' for 'racist' in a user's direct dictation output"},
+  {"incident_id": 964, "why": "The LA Times' AI 'Insights' assistant, an interactive feature for readers, generated a defense of the KKK in direct response to reader engagement"},
+  {"incident_id": 967, "why": "Amazon's AI-generated review-summary assistant produced a misleading positive summary of Mein Kampf shown directly to shoppers"},
+  {"incident_id": 976, "why": "AI-generated OB-GYN avatar personas on TikTok gave viewers dubious medical advice while posing as credentialed doctors"},
+  {"incident_id": 981, "why": "Apple's voicemail transcription AI inserted explicit/insulting language into a message delivered directly to the user"},
+  {"incident_id": 993, "why": "A predictive-text AI writing aid was inadvertently available to students during an exam, an agentic tool's presence/output during direct use forcing retakes"},
+  {"incident_id": 1015, "why": "Xanthorox is an autonomous AI platform with real-time voice/social-engineering capability built for direct interactive scams/attacks on victims"}
+]}
