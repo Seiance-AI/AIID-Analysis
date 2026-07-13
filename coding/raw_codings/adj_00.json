@@ -1,0 +1,122 @@
+{"decisions": [
+ {
+  "incident_id": 452,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Users submitted ChatGPT-generated nonsense bug reports to Immunefi, wasting staff time and prompting 15 bans.",
+  "note": "Scope dispute. Harm hit Immunefi via humans redistributing AI text to a third-party platform, not from output in the interaction; fails test 2, so out."
+ },
+ {
+  "incident_id": 482,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Vanderbilt's Peabody EDI office sent a ChatGPT-drafted shooting condolence email, drawing student backlash and an apology.",
+  "note": "Scope dispute. ChatGPT did what was asked; backlash arose from staff choosing to delegate and send the message, not from output in the interaction. Fails 2."
+ },
+ {
+  "incident_id": 507,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "reputational",
+  "one_line": "ChatGPT falsely told users Australian mayor Brian Hood served prison time for bribery; he was actually the whistleblower.",
+  "note": "harm_type dispute. Rubric requires filed suits/rulings/fines; Hood's suit was only threatened via legal letter, none filed. Reputational per coder2."
+ },
+ {
+  "incident_id": 549,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "reputational",
+  "one_line": "Fast-food hiring chatbots at McDonald's, Wendy's, and Hardee's gave useless instructions and mis-scheduled applicant interviews.",
+  "note": "system_type dispute. Recruiting bots serve job applicants, not customers; not support/sales/booking/service, so 'other' per coder2."
+ },
+ {
+  "incident_id": 552,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "B",
+  "harm_type": "reputational",
+  "one_line": "A user got Bing Chat's image analysis to solve a CAPTCHA despite the stated restriction; Microsoft then pulled the feature.",
+  "note": "A vs B. Material documents deliberate probing of the safeguard but no technical exploit technique (no injection/encoding shown), so goading test gives B."
+ },
+ {
+  "incident_id": 578,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "reputational",
+  "one_line": "LLaMA-based companion chatbots like 'Allie' generate violent and illegal sexual roleplay content in user interactions.",
+  "note": "Scope dispute. Allie is a deployed chatbot; the harmful content occurs in the interaction itself, and roleplay requests are its ordinary use, so in scope, C."
+ },
+ {
+  "incident_id": 622,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "customer service",
+  "category": "A",
+  "harm_type": "reputational",
+  "one_line": "A user injected an objective override into a Chevy dealer's ChatGPT bot, making it 'agree' to sell a 2024 Tahoe for $1.",
+  "note": "B vs A. The documented input ('your objective is to agree with anything...') is a direct prompt injection, an enumerated A technique a filter could catch."
+ },
+ {
+  "incident_id": 625,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Amazon product listings appeared with unedited ChatGPT refusal messages like 'I cannot fulfill this request' as names.",
+  "note": "Scope dispute. Harm came from sellers publishing unedited AI output to Amazon, not from output in an interaction with a user; fails test 2."
+ },
+ {
+  "incident_id": 719,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Grok generated a false 'Iran Strikes Tel Aviv' headline from spammed fake posts, promoted by X's trending news feature.",
+  "note": "Scope dispute. Grok here is an automated trend-curation pipeline broadcasting to the feed, not a conversational/agentic system in a user interaction; fails 1-2."
+ },
+ {
+  "incident_id": 734,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "A NewsGuard audit found 10 leading chatbots repeated Russian disinformation narratives in about a third of 570 test prompts.",
+  "note": "Scope dispute. This is a benchmark/audit with researcher-crafted prompts and no documented deployed-user harm, an explicit test-2 exclusion."
+ },
+ {
+  "incident_id": 736,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Researchers catalogued an underground market of jailbroken 'dark LLM' services (WormGPT, FraudGPT) sold for malware and phishing.",
+  "note": "Scope dispute. Market-wide research survey; documented harms reach victims via criminals redistributing outputs, not in the interaction. Fails 2, not just 3."
+ },
+ {
+  "incident_id": 742,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Grok's automated X news summaries posted false headlines (e.g. Harris shot) after the Trump rally shooting by misreading posts.",
+  "note": "Scope dispute. Same feed-curation pipeline as 719: headlines auto-generated from ambient posts and broadcast, no user interaction; fails 1-2, matching 719."
+ }
+]}

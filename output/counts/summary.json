@@ -1,0 +1,52 @@
+{
+  "window": "2023-01-01..2026-06-30",
+  "year_basis": "AIID incident date",
+  "access_date": "2026-07-07",
+  "N_in_scope": 199,
+  "counts": {
+    "A": 19,
+    "B": 13,
+    "C": 167
+  },
+  "X_pct_C_over_N": 83.9,
+  "BC_pct_over_N": 90.5,
+  "A_share_first_vs_last_full_year": {
+    "2023": 12.5,
+    "2025": 13.3
+  },
+  "C_share_first_vs_last_full_year": {
+    "2023": 81.2,
+    "2025": 79.6
+  },
+  "enforceable_harm_split": {
+    "A": {
+      "n": 19,
+      "enforceable": 8,
+      "enforceable_pct": 42.1
+    },
+    "B": {
+      "n": 13,
+      "enforceable": 2,
+      "enforceable_pct": 15.4
+    },
+    "C": {
+      "n": 167,
+      "enforceable": 62,
+      "enforceable_pct": 37.1
+    }
+  },
+  "coder_agreement": {
+    "dual_coded": 336,
+    "scope_agreement_pct": 91.7,
+    "category_agreement_pct": 96.4,
+    "category_agreement_pool": 196
+  },
+  "exclusions": {
+    "total": 833,
+    "by_stage": {
+      "keyword-triage": 519,
+      "recall-screen": 176,
+      "coding": 138
+    }
+  }
+}

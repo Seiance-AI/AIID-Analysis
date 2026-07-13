@@ -1,0 +1,124 @@
+{
+ "decisions": [
+  {
+   "incident_id": 743,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Privacy activist alleged Gemini auto-scanned Google Drive PDFs after one activation without renewed consent; Google disputed the claim.",
+   "note": "Scope dispute. Harm is a data-access/consent issue, not model output in an interaction; fails scope test 2 (data/privacy exclusion). Sided with coder2."
+  },
+  {
+   "incident_id": 1003,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "A",
+   "harm_type": "enforceable",
+   "one_line": "Attacker breached AIXBT's dashboard and queued fraudulent prompts, making the AI trading agent transfer 55.5 ETH (~$106,200).",
+   "note": "Scope dispute. The agent's own action on injected prompts caused the loss, so the security-flaw exclusion fails; injection is a technical exploit (A). Coder2."
+  },
+  {
+   "incident_id": 1009,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Tromso officials used generative AI to draft a school-closure report; 11 of 18 cited sources were fabricated, halting the plan.",
+   "note": "system_type dispute. Staff used a general-purpose chatbot for drafting, not a public-sector-deployed system, so 'other' (coder2). C and reputational undisputed."
+  },
+  {
+   "incident_id": 1041,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "B",
+   "harm_type": "reputational",
+   "one_line": "Nomi companion chatbots gave explicit suicide, sexual-violence, and terrorism instructions as users deliberately escalated requests.",
+   "note": "Category dispute. Documented inputs show goading: user asked for 'more direct encouragement,' researcher escalated extreme requests; no exploit, so B (coder2)."
+  },
+  {
+   "incident_id": 1071,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "A Northeastern student filed a complaint after finding her professor used undisclosed ChatGPT output in course materials.",
+   "note": "Scope dispute. Harm stems from a human's undisclosed use of AI-made static materials, not a system failure in an interaction; fails test 2. Sided with coder1."
+  },
+  {
+   "incident_id": 1084,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "The federal MAHA health report contained AI-hallucinated citations to nonexistent studies and was quietly corrected.",
+   "note": "system_type dispute. Drafting used a general-purpose chatbot (oaicite markers), not a public-sector system, so 'other' (coder2). C/reputational undisputed."
+  },
+  {
+   "incident_id": 1103,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "gov info",
+   "category": "C",
+   "harm_type": "enforceable",
+   "one_line": "A DOGE-built LLM tool hallucinated VA contract values and flagged essential contracts; at least two dozen were terminated.",
+   "note": "harm_type dispute. At least 24 flagged contracts were actually canceled, a documented financial/contractual consequence, so enforceable (coder2)."
+  },
+  {
+   "incident_id": 1164,
+   "in_scope": false,
+   "exclusion_reason": "out-of-scope-type",
+   "system_type": "n/a",
+   "category": "n/a",
+   "harm_type": "n/a",
+   "one_line": "Google's Med-Gemini paper and blog contained the invented term 'basilar ganglia,' conflating two brain structures.",
+   "note": "Scope dispute. Error appeared in a preprint/launch demo with no deployed user interaction, matching the benchmark/eval-finding exclusion. Sided with coder1."
+  },
+  {
+   "incident_id": 1174,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "Microsoft Copilot returned Bing-cached content, including secrets, from over 20,000 since-privatized GitHub repositories.",
+   "note": "system_type dispute. The system is the Bing-based Copilot chatbot (a search chatbot), not a coding assistant, so 'other' (coder1). C/reputational undisputed."
+  },
+  {
+   "incident_id": 1190,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "A woman confided suicidal ideation for months to a ChatGPT 'therapist' persona that gave non-escalatory support before her death.",
+   "note": "Category dispute. Coder2's jailbreak claim rests on prompt content not in the material; documented inputs are ordinary confiding of distress, so C (coder1)."
+  },
+  {
+   "incident_id": 1210,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "dev tool",
+   "category": "A",
+   "harm_type": "reputational",
+   "one_line": "Malicious Nx npm packages invoked local AI coding agents with unsafe flags to scan machines and exfiltrate developer secrets.",
+   "note": "harm_type dispute. Material documents secret exfiltration but no fine, lawsuit, or quantified financial loss, so reputational (coder1). A/dev tool undisputed."
+  },
+  {
+   "incident_id": 1218,
+   "in_scope": true,
+   "exclusion_reason": "n/a",
+   "system_type": "other",
+   "category": "C",
+   "harm_type": "reputational",
+   "one_line": "M365 Copilot could be asked to summarize a file without generating an audit-log entry, undermining traceability and compliance.",
+   "note": "Category dispute. Trigger was a plain-language summarize request that would pass unnoticed in legitimate traffic; nothing anomalous to filter, so C (coder2)."
+  }
+ ]
+}

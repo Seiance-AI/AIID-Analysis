@@ -1,0 +1,92 @@
+{"decisions": [
+ {
+  "incident_id": 1467,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "enforceable",
+  "one_line": "South Africa withdrew its draft national AI policy after fictitious, apparently AI-hallucinated academic references were found in it.",
+  "note": "system_type split. Tool was a general LLM used by staff, not a public-sector-facing deployed system; coded 'other', consistent with 1499/1548."
+ },
+ {
+  "incident_id": 1469,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "dev tool",
+  "category": "C",
+  "harm_type": "enforceable",
+  "one_line": "Cursor agent on Claude Opus 4.6 deleted PocketOS's production database and backups via one Railway API call during a staging task.",
+  "note": "harm_type split. Destroying production data and disrupting the firm's and customers' operations is documented financial loss, so enforceable."
+ },
+ {
+  "incident_id": 1489,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "Manifesto and later reporting claimed a Finnish school stabber used ChatGPT while planning; no AI outputs are documented.",
+  "note": "Scope split. No system output or its causal role in the harm is documented, only claimed use as an aid; scope test 2 fails, so excluded."
+ },
+ {
+  "incident_id": 1499,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "enforceable",
+  "one_line": "Attorney used Claude Console to draft a motion filed with phantom quotations; the judge ordered a sworn explanation and he apologized.",
+  "note": "harm_type split. The judge's order compelling an under-oath explanation is a formal court ruling/disciplinary consequence, so enforceable."
+ },
+ {
+  "incident_id": 1510,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "customer service",
+  "category": "B",
+  "harm_type": "reputational",
+  "one_line": "Hackers got Meta's AI support bot to link new emails to victims' Instagram accounts via plain requests plus VPN location spoofing.",
+  "note": "A vs B. The chat input was a plain-language request with no prompt-level exploit a filter could flag; the VPN trick sat outside the interaction, so B."
+ },
+ {
+  "incident_id": 1511,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "X users asked Grok to 'unblur' redacted Epstein-file photos of children and women; it generated images in 27 of 31 reviewed cases.",
+  "note": "Scope split. Harm is synthetic-media generation targeting depicted third parties, an excluded type under scope test 2; matches 1562 handling."
+ },
+ {
+  "incident_id": 1512,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "SMH and The Age pulled an academic's opinion piece after peers detected undisclosed Microsoft Copilot use in its drafting.",
+  "note": "Scope split. Copilot performed as asked; harm stems from undisclosed AI use breaching editorial norms, not a faulty system output, so out of scope."
+ },
+ {
+  "incident_id": 1548,
+  "in_scope": true,
+  "exclusion_reason": "n/a",
+  "system_type": "other",
+  "category": "C",
+  "harm_type": "enforceable",
+  "one_line": "Fictitious AI-generated references were appended to South Africa's immigration White Paper; two Home Affairs officials were suspended.",
+  "note": "system_type split. Officials used a general LLM, not a public-sector-facing deployed system; coded 'other' per rubric examples, consistent with 1467."
+ },
+ {
+  "incident_id": 1562,
+  "in_scope": false,
+  "exclusion_reason": "out-of-scope-type",
+  "system_type": "n/a",
+  "category": "n/a",
+  "harm_type": "n/a",
+  "one_line": "A Pennsylvania man allegedly used Grok to generate and possess AI-made CSAM; xAI CyberTips led to felony charges.",
+  "note": "Scope split. CSAM image generation is excluded synthetic-media harm to non-interacting subjects (test 2); charges fall on the user, not from output."
+ }
+]}

@@ -38,7 +38,8 @@ An incident is **in scope** only if ALL hold:
    like**.
 
 Log each exclusion with a one-word reason: `out-of-scope-type` or
-`insufficient-detail`. Exclusion count: `[ TBD ]`.
+`insufficient-detail`. Exclusion count: **833** (keyword triage 519,
+recall screen 176, coding 138; see `data/filtered/exclusions_full.csv`).
 
 ## Part 3 — Coding categories
 
@@ -78,3 +79,35 @@ Code by the **nature of the triggering input**, not the severity of the outcome.
 **Honesty check:** if adversarial share does not fall across years, do not force
 the claim — report the composition finding ("most real incidents are
 normative") instead.
+
+## Coding process (as executed)
+
+The 1,032 window incidents were triaged by a transparent keyword funnel into
+242 candidates, 519 clear exclusions, and 271 for review. The 242 candidates
+plus 17 keyword-ambiguous incidents were fully coded; the remaining 254
+no-keyword-match incidents went through a recall-oriented screen (erring toward
+inclusion), which promoted 78 for full coding — 337 incidents coded in total.
+
+Coding was **model-assisted and dual-coded**: two independent LLM coding passes
+using identical rubric prompts, coding strictly from AIID incident material
+(title, description, and linked report text; no web access, no outside
+knowledge). Disagreements on scope, category, or fields were resolved by a
+third independent adjudication pass reviewing both codings and the source
+material; adjudication notes are recorded per incident. Raw per-coder outputs
+live in `coding/raw_codings/`.
+
+- Dual-coded: 336 of 337 (one incident single-coded after a coder-pass fault)
+- Scope agreement: **91.7%**; category agreement (both-in-scope pool of 196): **96.4%**
+- Adjudicated: 56 incidents
+
+## Results (computed 2026-07-13)
+
+- **N = 199** in-scope incidents: **A = 19, B = 13, C = 167**
+- **X% = C/N = 83.9%** (purist); (B+C)/N = 90.5%
+- A-share 2023 → 2025: **12.5% → 13.3%**; C-share: **81.2% → 79.6%**
+- Enforceable-harm share: C 37.1%, A 42.1%, B 15.4%
+- **Honesty check: adversarial share is NOT falling** (12.5% → 13.3%).
+  Per Part 4, Chart 1 must be framed as a composition claim ("the overwhelming
+  majority of real-world conversational/agentic AI incidents are normative"),
+  and any "adversarial is being solved upstream" trend must be carried by
+  provider data (Chart 2) alone.
